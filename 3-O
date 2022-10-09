@@ -1,0 +1,3 @@
+O(n log n) or O(n) --> three-way oartition and equal keys
+O(n log n)
+O(n^2)
