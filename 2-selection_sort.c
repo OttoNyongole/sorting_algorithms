@@ -12,9 +12,9 @@ void swap_ints(int *n, int *m)
 	*m = tmp;
 }
 
-/*
- * selection_sort - Sort an array of integers in ascending orde
- * 			using selection sort algorithm.
+/**
+ * selection_sort - Sort an array of integers in ascending order
+ * using selection sort algorithm.
  * @array: an array of integers.
  * @size: The size of an array.
  *
@@ -28,7 +28,7 @@ void selection_sort(int *array, size_t size)
 	if (array == NULL || size < 2)
 		return;
 
-	for (i = 0; i < size -1; i++)
+	for (i = 0 ; i < size - 1 ; i++)
 	{
 		min = array + i;
 		for (j = i + 1; j < size; j++)
